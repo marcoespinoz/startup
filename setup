@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo yum update -y
+sudo yum install docker -y
+sudo systemctl enable docker && systemctl start docker
+sudo timedatectl set-timezone America/Lima
+
